@@ -1,24 +1,39 @@
 
 body{
+  color: #40514E;
   margin:0;
   text-align: center;
   font-family: 'Merriweather', sans-serif;
+
 }
 
 h1{
   font-family: 'Sacramento', cursive;
-  width: 20%;
-  margin: 0 auto;
-  font-size: 90px;
+  color:#66BFBF;
+  margin:50px auto 0 auto;
+  font-size: 5.6rem;
+  line-height: 2;
 }
 h2{
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:#66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
+  color:#11999E;
 }
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
 .top-container{
-  background-color: #e3fdfd;
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 
@@ -26,37 +41,103 @@ h3{
 }
 
 .middle-container{
-  padding: 0 10vw;
+
+  margin: 100px 0;
 
 }
 .bottom-container{
-
+background-color: #66BFBF;
+margin: 0;
+padding: 50px 0 20px;
 
 }
 .top-cloud{
   position: absolute;
   right: 20vw;
-  top: 50px;
+  top: 40px;
 }
 .bottom-cloud{
   position: absolute;
-  left: 20vw;
+  left: 18vw;
   bottom: 300px;
 
 }
-.profile{
-  padding: 100px;
-}
+
 .profile-img{
   width:15%;
 
 }
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
 .gif{
-  width:35%;
+  width:22%;
+  float: left;
+  margin-right: 30px;
 }
 span{
   text-decoration: underline;
 }
 span:hover{
   background-color: pink;
+}
+a{
+  color:#11999E;
+}
+a:hover{
+  color: #EAF6F6;
+}
+p{
+  line-height: 2;
+}
+.footer-link{
+  font-family: 'Montserrat', sans-serif;
+  margin:10px 20px;
+  text-decoration:none;
+
+}
+.contact-me{
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+
+}
+.footer-content{
+  color:#EAF6F6 ;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.btn{
+  background:#11cdd4;
+  color:#EAF6F6;
+  text-decoration: none;
+  padding: 1rem;
+
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 8px;
+  font-size: 20px;
+  background-image: linear-gradient(to bottom,#11cdd4, #11999e);
+}
+.btn:hover{
+  background: #30e3cb;
+}
+.contact-description{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.name{
+  color: #EAF6F6;
+  text-decoration: none;
+
+}
+.name:hover{
+  background-color: #11999E
+
 }
